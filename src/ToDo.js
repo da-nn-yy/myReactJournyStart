@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ToDoTask } from './ToDoTask'
+import ToDoTask from './ToDoTask'
 
 const ToDo = () => {
   const [todoList,setTodoList] = useState([]);
@@ -43,7 +43,7 @@ const ToDo = () => {
       <div className="list">
         {todoList.map((task) => {
           return (
-          <ToDoTask taskName={task.taskName} id={task.id} deletTask={deletTask}/>;
+          <ToDoTask taskName={task.taskName} id={task.id} deletTask={deletTask}/>
           )
         })}
       </div>
