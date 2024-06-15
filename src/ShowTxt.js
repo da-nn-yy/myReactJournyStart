@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Text } from './Text';
+import  Text  from './Text';
 
 const ShowTxt = () => {
   const [showText,setShowText] = useState(false);
