@@ -1,12 +1,12 @@
 import './App.css';
-import Fetchingg from './Fetchingg';
+import ExcuseFetchExe from './ExcuseFectchExe';
 import React from 'react';
 
 
 function App() {
  
   return <div className='App'>
-     <Fetchingg/>
+     <ExcuseFetchExe/>
   </div>
 }
 

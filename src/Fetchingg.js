@@ -1,6 +1,5 @@
 import Axios  from "axios";
-import { useEffect,useState } from "react";
-
+import { useState } from "react";
 const Fetchingg = () => {
   
   const [name,setName] = useState("")
