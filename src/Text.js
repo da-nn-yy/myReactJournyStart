@@ -1,9 +1,16 @@
 import React from "react";
-import { useState } from "react";
+import { useState , useEffect } from "react";
 
 const Text = () => {
   const [text, setText] = useState("");
 
+  useEffect(() => {
+    console.log("Component Mounted")
+
+    return () =>{
+      console.log("Component UnMounted")
+    }
+  })
   return (
     <div>
       <input onChange={(event) => {
