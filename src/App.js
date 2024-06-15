@@ -1,11 +1,12 @@
 import './App.css';
-import UseEf from './UseEf';
+import Fetching from './Fetching';
+import React from 'react';
 
 
 function App() {
  
   return <div className='App'>
-     
+     <Fetching/>
   </div>
 }
 
