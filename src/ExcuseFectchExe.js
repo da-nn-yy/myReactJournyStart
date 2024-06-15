@@ -13,8 +13,14 @@ const ExcuseFetchExe = () => {
       <h1>Get Excuse for:</h1>
       <div style={{margin:"50px", display:"flex",justifyContent:"space-between" }}>
         <button onClick={() => fetchExcuse("family")}>Family</button>
-        <button onClick={() => fetchExcuse("Office")}>Office</button>
+        <button onClick={() => fetchExcuse("office")}>Office</button>
         <button onClick={() => fetchExcuse("gaming")}>Gaming</button>
+        <button onClick={() => fetchExcuse("collage")}>Collage</button>
+        <button onClick={() => fetchExcuse("party")}>Party</button>
+        <button onClick={() => fetchExcuse("funny")}>Funny</button>
+        <button onClick={() => fetchExcuse("unbelieveble")}>Unbelieveble</button>
+        <button onClick={() => fetchExcuse("developers")}>Developers</button>
+        <button onClick={() => fetchExcuse("children")}>Children</button>
       </div>
 
       <p>{genetratedExcuse}</p>
