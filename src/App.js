@@ -1,12 +1,12 @@
 import './App.css';
-import Fetching from './Fetching';
+import Fetchingg from './Fetchingg';
 import React from 'react';
 
 
 function App() {
  
   return <div className='App'>
-     <Fetching/>
+     <Fetchingg/>
   </div>
 }
 
