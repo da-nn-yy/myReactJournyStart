@@ -1,11 +1,11 @@
 import './App.css';
-import ShowTxt from './ShowTxt';
+import UseEf from './UseEf';
 
 
 function App() {
  
   return <div className='App'>
-     <ShowTxt/>
+     
   </div>
 }
 
