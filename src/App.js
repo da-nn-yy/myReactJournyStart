@@ -1,12 +1,12 @@
 import './App.css';
-import ExcuseFetchExe from './ExcuseFectchExe';
 import React from 'react';
+import ReactRouter from './ReactRouter'
 
 
 function App() {
  
   return <div className='App'>
-     <ExcuseFetchExe/>
+    <ReactRouter />
   </div>
 }
 
