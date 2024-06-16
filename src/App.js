@@ -1,12 +1,12 @@
 import './App.css';
 import React from 'react';
-import ReactRouter from './ReactRouter'
+import { PageRouter } from './PageRouter';
 
 
 function App() {
  
   return <div className='App'>
-    <ReactRouter />
+    <PageRouter/>
   </div>
 }
 
