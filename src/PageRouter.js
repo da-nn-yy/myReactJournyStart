@@ -1,6 +1,6 @@
 import { BrowserRouter as Router,Routes,Route,Link } from "react-router-dom";
 import { Home} from './pages/Home';
-import { Profile} from './pages/Profile';
+import Profile from './pages/Profile';
 import { Contact} from './pages/Contact';
 
 
@@ -9,7 +9,7 @@ export const PageRouter = () => {
     <Router>
       <div style={{display:"flex", justifyContent:"space-around", margin:"2rem"}}>
         <Link to="/Home">Home</Link>
-        <Link to="/Profile">Profile</Link>
+        <Link to="http://github.com/da-nn-yy">Profile</Link>
         <Link to="/Contact">Contact</Link>
       </div>
       <Routes>
