@@ -4,7 +4,7 @@ import { ChangeProfile } from '../Components/ChangeProfile'
 import { useContext } from "react"
 import { AppContext } from "../StateMangeuseCon"
 
-function Profile() {
+function Profile(props) {
   // let navigate = useNavigate()   /// function for navigate
   // let {username} = useParams()   /// function for useParams
   const {username} = useContext(AppContext)
