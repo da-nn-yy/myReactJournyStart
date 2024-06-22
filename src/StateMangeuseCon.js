@@ -20,7 +20,7 @@ export const StateMangeuseCon = () => {
           <Route path="/Home" element={<Home />}/>
           <Route path="/Profile" element={<Profile />}/>
           <Route path="/Contact" element={<Contact/>}/>
-          <Route path="*" element={<h1>Page not Found</h1>}/>
+          <Route path="*" element={<h1>404 error</h1>}/>
         </Routes>
       </Router>
     </AppContext.Provider>
