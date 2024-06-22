@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react';
-import { PageRouter } from './PageRouter';
+import { StateMangeuseCon } from './StateMangeuseCon';
 
 
 function App() {
  
   return <div className='App'>
-    <PageRouter/>
     
+    <StateMangeuseCon/>
   </div>
 }
 
