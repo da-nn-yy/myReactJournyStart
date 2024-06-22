@@ -10,7 +10,7 @@ export const StateMangeuseCon = () => {
   return (
     <AppContext.Provider value={{username,setUsername}}>
       <Router>
-        <div style={{display:"flex", justifyContent:"space-around", margin:"2rem"}}>
+        <div style={{display:"flex", justifyContent:"space-around", margin:"2rem", backgroung:"red"}}>
           <Link to="/Home">Home</Link>
           <Link to="/profile">Profile</Link>
           <Link to="/Contact">Contact</Link> 
