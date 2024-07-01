@@ -1,11 +1,11 @@
 import React from 'react'
-import ShowTxt from './UseEff/ShowTxt';
+import ExcuseFetchExe from './FetchingWizAxios/ExcuseFectchExe'
 import './App.css'
 
 function App() {
   return (
-    <div>
-      <ShowTxt/>
+    <div className='App'>
+      <ExcuseFetchExe/>
     </div>
   )
 }

@@ -15,7 +15,7 @@ const ExcuseFetchExe = () => {
         <button onClick={() => fetchExcuse("family")}>Family</button>
         <button onClick={() => fetchExcuse("office")}>Office</button>
         <button onClick={() => fetchExcuse("gaming")}>Gaming</button>
-        <button onClick={() => fetchExcuse("collage")}>Collage</button>
+        <button onClick={() => fetchExcuse("college")}>Collage</button>
         <button onClick={() => fetchExcuse("party")}>Party</button>
         <button onClick={() => fetchExcuse("funny")}>Funny</button>
         <button onClick={() => fetchExcuse("unbelievable")}>Unbelieveble</button>
