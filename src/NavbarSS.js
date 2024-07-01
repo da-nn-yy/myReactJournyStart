@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-export const Navbar = () => {
+export const NavbarSS = () => {
   return (
     <div>
       <Link to="/"> Home </Link>

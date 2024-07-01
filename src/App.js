@@ -1,13 +1,13 @@
 import React from 'react'
-import ExcuseFetchExe from './FetchingWizAxios/ExcuseFectchExe'
+import PageRouter from './RoutingDomRoutes/PageRouter'
 import './App.css'
 
 function App() {
   return (
     <div className='App'>
-      <ExcuseFetchExe/>
+      <PageRouter/>
     </div>
   )
 }
 
-export default App
+export default App;
