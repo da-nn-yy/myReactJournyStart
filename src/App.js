@@ -1,11 +1,11 @@
 import React from 'react'
-import PageRouter from './RoutingDomRoutes/PageRouter'
+import { StateMangeuseCon } from './UseConStateMan/StateMangeuseCon';
 import './App.css'
 
 function App() {
   return (
     <div className='App'>
-      <PageRouter/>
+      <StateMangeuseCon/>
     </div>
   )
 }
