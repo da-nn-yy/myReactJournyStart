@@ -26,4 +26,4 @@ export const Home = () => {
     </div>
   )
 }
-/* HTML: <div class="loader"></div> */
+
