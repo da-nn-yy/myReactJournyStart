@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-export const NavbarSS = () => {
+export const Navbar = () => {
   return (
-    <div>
+    <div style={{display:"flex", justifyContent:"space-around", margin:"2rem"}}>
       <Link to="/"> Home </Link>
       <Link to="/profile"> Profile </Link>
       <Link to="/contact"> Contact </Link>
