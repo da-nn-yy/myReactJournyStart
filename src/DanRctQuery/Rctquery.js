@@ -9,7 +9,14 @@ import { QueryClient,QueryClientProvider } from '@tanstack/react-query';
 
 const RctQu = () => {
 
-  const client = new QueryClient();
+  const client = new QueryClient({defaultOptions:
+    {
+      queries:{
+        // refetchOnWindowFocus:true, //if its true teh page will fetch another data while i go from one tab another tab
+        refetchOnWindowFocus:false, //if its false the page doesnt fetch another data 
+      }
+    }
+  });
   return (
     <div className='App'>
       <QueryClientProvider client={client}>
