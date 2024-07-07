@@ -1,11 +1,10 @@
 import React from 'react'
 import './App.css'
-import Rctquery from './DanRctQuery/Rctquery';
-
+import { Form } from './RctForm&YUP/Form';
 function App() {
   return (
     <div className='App'>
-      <Rctquery/>
+      <Form/>
     </div>
   )
 }
