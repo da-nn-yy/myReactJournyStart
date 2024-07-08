@@ -6,5 +6,6 @@ export const useToggle = (initialVal = false) => {
     // setState(!state);
     setState((prev) => !prev)
   }
-  return [state,toggle]
+  return [state,toggle];  //returning array  
+  // return {state,toggle};  //returning object
 }
