@@ -1,6 +1,6 @@
 import { useCatFact } from './useCatFact';
 import { QueryClient,QueryClientProvider } from '@tanstack/react-query';
-export const Cat = () => {
+export const Catfact = () => {
   
   const client = new QueryClient()
 

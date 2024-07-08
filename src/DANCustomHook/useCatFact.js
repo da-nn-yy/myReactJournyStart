@@ -14,6 +14,9 @@ export const useCatFact = () => {
       alert("Data Refetched");
       refetch();
     }   
+    if (error) {
+    return <div>Error loading cat fact</div>;
+  }
 
-  return { data ,refetchData,isCatLoading}
+  return { data ,refetchData,isCatLoading,error}
 }
