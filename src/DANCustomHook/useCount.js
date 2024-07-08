@@ -16,5 +16,5 @@ export const useCount = () => {
     setCount(0)
   }
 
-  return {incr,decr,restart}
+  return {count,incr,decr,restart}
 }

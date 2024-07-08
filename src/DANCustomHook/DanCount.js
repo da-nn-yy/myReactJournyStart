@@ -6,11 +6,12 @@ const DanCount = () => {
 
   return (
     <div>
+      
       <h1>{count}</h1>
 
       <button onClick={incr}>Increase</button>
-      <button onClick={decr}>Increase</button>
-      <button onClick={restart}>Increase</button>
+      <button onClick={decr}>Decrease</button>
+      <button onClick={restart}>Restart</button>
     </div>
   )
 }
