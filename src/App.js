@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
-import { Custhook } from './DANCustomHook/Custhook';
+import { Catfact } from './DANCustomHook/Catfact';
 function App() {
   return (
     <div className='App'>
-      <Custhook/>
+      <Catfact/>
     </div>
   )
 }
