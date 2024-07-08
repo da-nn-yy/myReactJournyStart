@@ -5,9 +5,10 @@ export const Custhook = () => {
 
   return (
     <>
-      <button onClick={() => setIsVisisble((prev)=> !prev )}>  {isVisble ? "Hide" : "Show"}
+      <button onClick={() => setIsVisisble(!isVisble)}>  {isVisble ? "Hide" : "Show"}
       </button>
-      {isVisble &&<h1>Hidden Text</h1>}
+      {/* <button onClick={() => setIsVisisble((prev) => !prev)}>  {isVisble ? "Hide" : "Show"}</button> */}
+      {isVisble &&<h1>Hi Danny</h1>}
     </>
   )
 }
