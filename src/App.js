@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
-import { Form } from './RctForm&YUP/Form';
+import { Custhook } from './DANCustomHook/Custhook';
 function App() {
   return (
     <div className='App'>
-      <Form/>
+      <Custhook/>
     </div>
   )
 }
