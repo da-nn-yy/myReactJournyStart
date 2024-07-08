@@ -3,7 +3,18 @@ import { useState } from "react";
 
 
 export const useCount = () => {
-  use 
+  
+  const[count,setCount] = useState(0);
 
-  return ()
+  const incr = () => {
+    setCount(count + 1)
+  }
+  const decr = () => {
+    setCount(count - 1)
+  }
+  const restart = () => {
+    setCount(0)
+  }
+
+  return {incr,decr,restart}
 }
