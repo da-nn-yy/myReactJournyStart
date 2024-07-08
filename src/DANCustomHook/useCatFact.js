@@ -7,7 +7,8 @@ export const useCatFact = () => {
   const { data,refetch ,isLoading: isCatLoading ,error } = useQuery(
       {queryKey:["cat"], 
       queryFn:async () => {
-      return Axios.get("http://catfact.ninja/fact").then((res) => res.data);
+      const response = await Axios.get('https://catfact.ninja/fact');
+      return response.data
     }})
 
     const refetchData = () => {
