@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
-import DanCount from './DANCustomHook/DanCount';
+import Mymain from './RdxToolkit/Mymain';
 function App() {
   return (
     <div className='App'>
-      <DanCount/>
+      <Mymain/>
     </div>
   )
 }
