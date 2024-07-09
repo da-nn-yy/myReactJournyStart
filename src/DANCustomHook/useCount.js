@@ -4,7 +4,7 @@ import { useState } from "react";
 // export const useCount = (instialVal = 0) => {
 export const useCount = () => {
   
-  const[count,setCount] = useState();
+  const[count,setCount] = useState(0);
   // const[count,setCount] = useState(intialVal);
 
 

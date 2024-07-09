@@ -1,4 +1,5 @@
 import { useCount } from "./useCount"
+import './button.css'
 
 const DanCount = () => {
 
@@ -6,12 +7,14 @@ const DanCount = () => {
 
   return (
     <div>
-      
+  
       <h1>{count}</h1>
 
-      <button onClick={incr}>Increase</button>
-      <button onClick={decr}>Decrease</button>
-      <button onClick={restart}>Restart</button>
+      <div style={{display:"flex",justifyContent:"center",gap:"3rem"}}>
+        <button style={{backgroundColor:"blue"}} onClick={incr}>Increase</button>
+        <button style={{backgroundColor:"red"}} onClick={decr}>Decrease</button>
+        <button style={{backgroundColor:"green"}} onClick={restart}>Restart</button>
+      </div>
     </div>
   )
 }
